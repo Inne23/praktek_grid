@@ -1,0 +1,155 @@
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #9A31CC;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    margin-right: 40px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page1{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D6F3FF;
+    position: relative;
+    top: 80px;
+}
+.page1 .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.page1 .kotak1{
+    height: 300px;
+    width: 300px;
+    background-color: #FFE600;
+    grid-column: 1/2;
+
+}
+.page1 .kotak2{
+    height: 300px;
+    width: 300px;
+    background-color: #FFE600;
+    grid-column: 3/4;
+
+}
+.page2{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFE600;
+    position: relative;
+    top: 80px;
+}
+.page2 .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+}
+.page2 .kotak1{
+    height: 300px;
+    width: 250px;
+    background-color:red;
+    grid-column: 1/2;
+
+}
+.page2 .kotak2{
+    height: 300px;
+    width: 250px;
+    background-color: red;
+    grid-column: 2/3;
+
+}
+.page2 .kotak3{
+    height: 300px;
+    width: 250px;
+    background-color: red;
+    grid-column: 3/4;
+}
+
+.page3{
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #A634C3;
+    position: relative;
+    top: 80px;
+}
+.page3 .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.page3 .kotak1{
+    height: 300px;
+    width: 250px;
+    background-color:#24FF00;
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+}
+.page3 .kotak2{
+    height: 300px;
+    width: 250px;
+    background-color:#24FF00 ;
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+.page3 .kotak3{
+    height: 300px;
+    width: 250px;
+    background-color:#24FF00;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.page3 .kotak4{
+    height: 300px;
+    width: 250px;
+    background-color:#24FF00;
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+.page3 .kotak5{
+    height: 300px;
+    width: 250px;
+    background-color:#24FF00;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.page3 .kotak6{
+    height: 300px;
+    width: 250px;
+    background-color:#24FF00;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.page3 .kotak7{
+    height: 300px;
+    width: 250px;
+    background-color:#24FF00;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.page3 .kotak8{
+    height: 300px;
+    width: 250px;
+    background-color:#24FF00;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
